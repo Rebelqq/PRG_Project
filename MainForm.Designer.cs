@@ -37,7 +37,7 @@
             this.lblStudentID = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblCourse = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button5
@@ -113,19 +113,19 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Age";
             // 
-            // lblCourse
+            // label4
             // 
-            this.lblCourse.AutoSize = true;
-            this.lblCourse.Location = new System.Drawing.Point(74, 218);
-            this.lblCourse.Name = "lblCourse";
-            this.lblCourse.Size = new System.Drawing.Size(40, 13);
-            this.lblCourse.TabIndex = 10;
-            this.lblCourse.Text = "Course";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(74, 218);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Course";
             // 
             // MainForm
             // 
             this.ClientSize = new System.Drawing.Size(1127, 459);
-            this.Controls.Add(this.lblCourse);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblStudentID);
@@ -159,7 +159,7 @@
         private System.Windows.Forms.Label lblStudentID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblCourse;
+        private System.Windows.Forms.Label label4;
     }
 }
 
